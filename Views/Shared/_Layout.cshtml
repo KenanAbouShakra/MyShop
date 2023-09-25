@@ -4,24 +4,34 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - My Shop</title>
+    <!-- Ovenfor er metatagger som angir tegnsettet og visningsparametere for siden. Tittelen blir dynamisk generert. -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Her legger vi til Bootstrap CSS-filen fra en CDN (Content Delivery Network). -->
+    <script src="~/lib/bootstrap/js/bootstrap.js"></script>
+    <script src="~/lib/jquery/jquery.js"></script>
+    <!-- Her legger vi til Bootstrap og jQuery JavaScript-filer. Det ser ut til at filplasseringen er relativ til roten av prosjektet. -->
 </head>
 <body>
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <!-- Dette er navigasjonsfeltet på toppen av siden, som bruker Bootstrap-stil. -->
             <div class="container-fluid">
                 <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">My Shop</a>
+                <!-- Dette er nettstedets logo eller merkevarenavn som lenker til hjemmesiden. -->
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <!-- Dette er en knapp som viser eller skjuler navigasjonselementer på små skjermer. -->
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            <!-- Dette er en lenke til startsiden. -->
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Item" asp-action="Table">Items</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Item" asp-action="Grid">Items</a>
+                            <!-- Dette er en lenke til en side som viser elementer. -->
                         </li>
                     </ul>
                 </div>
@@ -31,8 +41,8 @@
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
+            <!-- Her rendrer vi hovedinnholdet av siden. Innholdet blir dynamisk generert. -->
         </main>
     </div>
 </body>
 </html>
-

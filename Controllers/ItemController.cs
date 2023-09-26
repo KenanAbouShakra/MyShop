@@ -15,69 +15,6 @@ namespace MyShop.Controllers
         {
             _itemDbContext = itemDbContext;
         }
-
-        public IActionResult addItems()
-        {
-            List<Item> itemsToAdd = new List<Item>
-
-    {
-            // Opret et nyt element
-          new Item
-            {
-                ItemId = 1,
-                Name = "Pizza",
-                Price = 150,
-                Description = "Delicious Italian dish with a thin crust topped with tomato sauce, cheese, and various toppings.",
-                ImageUrl = "/images/Pizze.jpg"
-            },
-            new Item
-            {
-                ItemId = 2,
-                Name = "Pizza",
-                Price = 100,
-                Description = "Delicious Italian dish with a thin crust topped with tomato sauce, cheese, and various toppings.",
-                ImageUrl = "/images/Pizze.jpg"
-            },
-             new Item
-            {
-                ItemId = 3,
-                Name = "Pizza",
-                Price = 80,
-                Description = "Delicious Italian dish with a thin crust topped with tomato sauce, cheese, and various toppings.",
-                ImageUrl = "/images/Pizze.jpg"
-            },
-             new Item
-            {
-                ItemId = 4,
-                Name = "Pizza",
-                Price = 50,
-                Description = "Delicious Italian dish with a thin crust topped with tomato sauce, cheese, and various toppings.",
-                ImageUrl = "/images/Pizze.jpg"
-            },
-            new Item
-            {
-                ItemId = 5,
-                Name = "Pizza",
-                Price = 30,
-                Description = "Delicious Italian dish with a thin crust topped with tomato sauce, cheese, and various toppings.",
-                ImageUrl = "/images/Pizze.jpg"
-            },
-            new Item
-            {
-                ItemId = 6,
-                Name = "Pizza",
-                Price = 150,
-                Description = "Delicious Italian dish with a thin crust topped with tomato sauce, cheese, and various toppings.",
-                ImageUrl = "/images/Pizze.jpg"
-            },
-        };
-
-            // Tilføj elementet til databasen
-            _itemDbContext.Items.AddRange(itemsToAdd);
-            _itemDbContext.SaveChanges();
-            return View();
-
-        }
     
         
         [HttpGet]
@@ -85,7 +22,7 @@ namespace MyShop.Controllers
         {
             return View();
         }
-        [HttpGet]
+        [HttpPost]
         public IActionResult Create(Item item)
         {
 
@@ -94,7 +31,7 @@ namespace MyShop.Controllers
                 // Tilføj elementet til databasen
                 _itemDbContext.Items.Add(item);
                 _itemDbContext.SaveChanges();
-                return RedirectToAction(nameof(Table));
+                return RedirectToAction(nameof(Grid));
 
             }
 

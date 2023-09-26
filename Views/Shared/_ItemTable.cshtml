@@ -23,6 +23,8 @@
                 <td>
                     <img src="@item.ImageUrl" alt="Item Image" style="max-width: 80px; max-height: 80px;" />
                 </td>
+                <td><a asp-action="Update" asp-route-id="@item.ItemId" class="btn-info">Update</a>                </td>
+                <td><a asp-action="Delete" asp-route-id="@item.ItemId" class="btn-danger">Delete</a>                </td>
             </tr>
         }
     </table>

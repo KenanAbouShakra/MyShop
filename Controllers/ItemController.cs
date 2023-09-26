@@ -39,6 +39,55 @@ namespace MyShop.Controllers
             return View(item); // Omdiriger til en passende handling
         }
 
+        [HttpGet]
+        public IActionResult Update(int id)
+        {
+            var item = _itemDbContext.Items.Find(id);
+            if(item == null)
+            {
+                return NotFound();
+            }
+            return View(item);
+        }
+
+        [HttpPost]
+        public IActionResult Update(Item item)
+        {
+
+            if (ModelState.IsValid)
+            {
+                // Tilføj elementet til databasen
+                _itemDbContext.Items.Update(item);
+                _itemDbContext.SaveChanges();
+                return RedirectToAction(nameof(Grid));
+
+            }
+            return View(item); // Omdiriger til en passende handling
+        }
+        [HttpGet]
+        public IActionResult Delete(int id)
+        {
+            var item = _itemDbContext.Items.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            return View(item);
+        }
+
+        [HttpPost]
+        public IActionResult DeleteConfirmed(int id)
+        {
+            var item = _itemDbContext.Items.Find(id);
+            if (item == null)
+            {
+                return NotFound();
+            }
+            // Tilføj elementet til databasen
+            _itemDbContext.Items.Remove(item);
+            _itemDbContext.SaveChanges();
+            return RedirectToAction(nameof(Grid));
+        }
         public IActionResult Grid()
         {
             List<Item> items = _itemDbContext.Items.ToList();

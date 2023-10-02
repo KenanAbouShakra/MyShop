@@ -12,6 +12,8 @@ namespace MyShop.Models
         
         public string? ImageUrl { get; set; }
 
+        public virtual List<OrderItem>? OrderItems { get; set; }
+
 
     }
 }

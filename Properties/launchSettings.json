@@ -10,13 +10,14 @@
   "profiles": {
     "MyShop": {
       "commandName": "Project",
-      "dotnetRunMessages": true,
+
       "launchBrowser": true,
-      "launchUrl": "item/table",
+
       "applicationUrl": "http://localhost:5165",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
-      }
+      },
+      "dotnetRunMessages": true
     },
     "IIS Express": {
       "commandName": "IISExpress",

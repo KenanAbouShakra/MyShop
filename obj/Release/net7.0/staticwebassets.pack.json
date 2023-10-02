@@ -21,6 +21,26 @@
       "PackagePath": "staticwebassets\\images\\Taco.jpg"
     },
     {
+      "Id": "C:\\Users\\47925\\OneDrive - OsloMet\\Skrivebord\\webapp\\MyShop\\wwwroot\\images\\chickenleg.jpg",
+      "PackagePath": "staticwebassets\\images\\chickenleg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\47925\\OneDrive - OsloMet\\Skrivebord\\webapp\\MyShop\\wwwroot\\images\\cider.jpg",
+      "PackagePath": "staticwebassets\\images\\cider.jpg"
+    },
+    {
+      "Id": "C:\\Users\\47925\\OneDrive - OsloMet\\Skrivebord\\webapp\\MyShop\\wwwroot\\images\\coke.jpg",
+      "PackagePath": "staticwebassets\\images\\coke.jpg"
+    },
+    {
+      "Id": "C:\\Users\\47925\\OneDrive - OsloMet\\Skrivebord\\webapp\\MyShop\\wwwroot\\images\\frenchfries.jpg",
+      "PackagePath": "staticwebassets\\images\\frenchfries.jpg"
+    },
+    {
+      "Id": "C:\\Users\\47925\\OneDrive - OsloMet\\Skrivebord\\webapp\\MyShop\\wwwroot\\images\\ribs.jpg",
+      "PackagePath": "staticwebassets\\images\\ribs.jpg"
+    },
+    {
       "Id": "C:\\Users\\47925\\OneDrive - OsloMet\\Skrivebord\\webapp\\MyShop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

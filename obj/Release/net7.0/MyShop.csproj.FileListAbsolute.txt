@@ -214,7 +214,6 @@ C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\ru
 C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\runtimes\linux-musl-arm\native\libe_sqlite3.so
 C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\runtimes\linux-musl-arm64\native\libe_sqlite3.so
 C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\runtimes\linux-musl-x64\native\libe_sqlite3.so
-C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
 C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\runtimes\linux-s390x\native\libe_sqlite3.so
 C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\runtimes\linux-x64\native\libe_sqlite3.so
 C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\runtimes\linux-x86\native\libe_sqlite3.so
@@ -254,3 +253,14 @@ C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\obj\Release\net7.0\re
 C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\obj\Release\net7.0\MyShop.pdb
 C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\obj\Release\net7.0\MyShop.genruntimeconfig.cache
 C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\obj\Release\net7.0\ref\MyShop.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\Mono.TextTemplating.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\Newtonsoft.Json.Bson.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\System.CodeDom.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\Castle.Core.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\CodeFirstDbGenerator.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\CodeFirstDbGenerator.Sqlite.dll
+C:\Users\47925\OneDrive - OsloMet\Skrivebord\webapp\MyShop\bin\Release\net7.0\runtimes\linux-ppc64le\native\libe_sqlite3.so
